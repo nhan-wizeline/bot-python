@@ -1,5 +1,5 @@
 from wit import Wit
-from response_parser import NPLResponseParser
+from response_parser import NLPResponseParser
 from response_builder import ResposeBuilder
 
 def send_human_message_to_npl_api(message_text):
@@ -16,7 +16,7 @@ def wait_for_human_message():
 # app start here
 access_token = "6X32NHTQMGUJZ7POOKYQFGA3DKWOG7CK"
 client = Wit(access_token)
-response_parser = NPLResponseParser()
+response_parser = NLPResponseParser()
 response_to_human = ResposeBuilder()
 
 print("Welcome to chatbot with Python")

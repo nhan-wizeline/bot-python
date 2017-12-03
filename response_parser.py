@@ -1,4 +1,4 @@
-class NPLResponseParser:
+class NLPResponseParser:
     def __init__(self):
         self.entities = list()
         self.entities_values = list()

@@ -1,4 +1,4 @@
-from response_parser import NPLResponseParser
+from response_parser import NLPResponseParser
 import json
 from urllib.request import urlopen, Request
 
