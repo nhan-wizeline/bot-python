@@ -8,11 +8,6 @@ def send_human_message_to_npl_api(message_text):
 def wait_for_human_message():
     return input("[Human]: ")
 
-# message_text = "Which hero should I play?"
-#message_text = "show me Bitcoin gold price"
-#message_text = "what is the price of bitcoin cash, bitcoin and ethereum"
-#message_text = "Bitcoin Cash price"
-#message_text = "good bye"
 # app start here
 access_token = "6X32NHTQMGUJZ7POOKYQFGA3DKWOG7CK"
 client = Wit(access_token)
